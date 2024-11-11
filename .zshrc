@@ -44,6 +44,9 @@ run_script "$(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighti
 # zoxide
 eval "$(zoxide init zsh)"
 
+# eza
+alias l="eza --color=always --icons=always --all --long --no-permissions --no-filesize --no-user --no-time"
+
 # android
 export ANDROID_HOME="$(brew --prefix)/share/android-commandlinetools"
 export PATH="$ANDROID_HOME/emulator:$PATH"

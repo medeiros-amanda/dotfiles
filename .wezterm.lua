@@ -11,8 +11,6 @@ config.line_height = 1.2
 config.freetype_load_target = "Light"
 
 -- window
-config.enable_tab_bar = false
-config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.94
 config.macos_window_background_blur = 24
 
